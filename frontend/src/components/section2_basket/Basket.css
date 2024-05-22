@@ -1,0 +1,103 @@
+.basket{
+    margin-top: 50px;
+}
+.basket_text{
+    font-family: "Muli";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 37%;
+    width: 25%;
+    text-align: center;
+    margin-bottom: 50px;
+
+    span{
+        font-size: 13px;
+        color: #adb5bd;
+        letter-spacing: .2em;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    h3{
+        color: #000;
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    p{
+        line-height: 1.3;
+    color: gray;
+    font-weight: 400;
+    font-size: 1rem;
+    }
+}
+
+.basket_card_img img{
+    width: 350px;
+    height: 350px;
+}
+.basket_card_img img:hover{
+    width: 300px;
+    height: 300px;
+    border: 4px solid orangered;
+}
+
+.basket_card{
+    text-align: center;
+}
+
+.basket_card_text{
+    h4{
+        font-size: 18px;
+        font-weight: 500;
+    line-height: 1.2;
+    }
+
+    span{
+        margin-left: 5px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        font-size: 13px;
+        color: #808080;
+        line-height: 1.7;
+    font-weight: 400;
+    }
+
+    .star{
+        color: #f89d13;
+        font-size: 13px;
+
+    }
+
+    .heart{
+        font-size: 13px;
+        color: #808080;
+    }
+    p{
+        line-height: 1.4;
+        font-size: 15px;
+        color: #808080;
+
+    }
+
+    button{
+        width: 90px;
+        height: 35px;
+        border: none;
+    }
+
+    .detail{
+        background-color: black;
+        border: none;
+        color: white;
+    }
+
+    .basket{
+        margin-left: 20px;
+        background-color: transparent;
+        border: 2px solid black;
+        color: black;
+    }
+}

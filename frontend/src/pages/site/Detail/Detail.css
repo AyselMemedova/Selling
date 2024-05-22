@@ -1,0 +1,27 @@
+.detail_img img{
+    width: 400px;
+    height: 400px;
+}
+.detail_all{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.detail_text p{
+    margin-bottom: 20px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #666666;
+    width: 350px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.detail_text h4{
+    font-family: Courgette;
+    font-size: 40px;
+    line-height: 1.2;
+    color: black;
+}
